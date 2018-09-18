@@ -1,0 +1,17 @@
+@import "variable.scss";
+
+@if ($test == black) {
+    $fond: white;
+  }@elseif ($test == white) {
+      $fond: black;
+}@else {
+    $fond: red;
+}
+
+.myClass {
+    color: $test;
+    background-color: $fond;
+    text-align:center;
+    border: 2px solid black;
+    padding:100px 0;
+}
