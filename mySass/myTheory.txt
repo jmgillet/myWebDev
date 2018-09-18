@@ -1,1 +1,4 @@
-sass est un générateur de CSS
+sass est un générateur de CSS, c'est à dire qu'il va permettre en partant d'un fichier.scss de créer un fichier.css
+Avantage creation et modifs plus rapides
+sass a besoin d'être compilé(actualisé) pour fonctionner.
+code: node-sass scss/main.css -o./css -w (-w permet la compilation automatique)
